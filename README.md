@@ -32,7 +32,7 @@ The task in this contest is to create a C/C++ library that can determine the lan
 5. Download the [labeled eng dataset](https://docs.google.com/spreadsheets/d/1D8uMJSC6qkpPTNwG4hZ5asd5tQcI5kgKoO_uzcQBhes/edit?usp=sharing) and [further labels](https://docs.google.com/spreadsheets/d/1tLKQ4U5CFZ_MZxvWHnafnlcWqeHpJy-LUnuNbnr6ffU/edit?usp=sharing) from russian dataset and the [russian dataset](https://docs.google.com/spreadsheets/d/1RGWC-y1ViM6MBP30pYW15Yvqxg2JHdbs8pxJHwq2Mz0/edit?usp=sharing). Then put them into "Topic Modelling" folder
 6. Run in sequence "ENG Topic Modelling.ipynb" and "RU Topic Modelling.ipynb"
 
-After these steps, al  machine learning classifier are created. Create a folder "Models" with the trained models and put it libtgcat/resources.
+After these steps, all machine learning classifier are created. Create a folder "Models" with the trained models and put it libtgcat/resources.
 If you do not want to create the models yourself, just [download them](https://drive.google.com/drive/folders/1QQaeurZfBZfU2FA2ZtLXYoK-a5M_E97L?usp=sharing).
 
 To build the C++ library use the following command inside the libgcat folder:
