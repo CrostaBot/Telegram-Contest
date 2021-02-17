@@ -25,3 +25,40 @@ The task in this contest is to create a C/C++ library that can determine the lan
     3. Train a new supervised model for russian topics.
 
 ## How to build
+1. Download the [source data]https://data-static.usercontent.dev/dc0202-input.tar.gz and put it into "Dataset" folder
+2. Run "dataset.ipynb" notebook
+3. Download the [fasttext pretrained model]https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin and put it into "Language Recognition" folder
+4. Run "Language Recognition Dataset.ipynb"
+5. Download the [labeled eng dataset] and [further labels] from russian dataset. Then put them into "Topic Modelling" folder
+6. Run in sequence "ENG Topic Modelling.ipynb" and "RU Topic Modelling.ipynb"
+
+After these steps, al  machine learning classifier are created. Create a subfolder "Models" with the trained models and put it libtgcat/resources.
+
+To build the C++ library use the following command inside the libgcat folder:
+
+```
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+make
+```
+
+To finally test the library download the [tester]https://data-static.usercontent.dev/libtgcat-tester.tar.gz and run the following command:
+
+```
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build .
+```
+
+Copy the resource folder and the libtgcat.so in the libtgcat, put the input data in the build folder. Then run:
+
+```
+make
+tgcat-tester <mode> <input_file> <output_file>
+```
+
+where mode can be "language" for language identification or "category" for topic modelling.
+
