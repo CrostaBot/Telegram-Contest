@@ -63,3 +63,5 @@ tgcat-tester <mode> <input_file> <output_file>
 
 where mode can be "language" for language identification or "category" for topic modelling.
 
+## Contacts
++ Telegram: [@WuolterCox](t.me/WuolterCox)
