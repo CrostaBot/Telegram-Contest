@@ -45,7 +45,7 @@ cmake --build .
 make
 ```
 
-To finally test the library download the [tester]https://data-static.usercontent.dev/libtgcat-tester.tar.gz and run the following command:
+To finally test the library download the [tester](https://data-static.usercontent.dev/libtgcat-tester.tar.gz) and run the following command:
 
 ```
 mkdir build
