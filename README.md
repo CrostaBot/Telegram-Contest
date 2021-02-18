@@ -26,7 +26,7 @@ The task in this contest is to create a C/C++ library that can determine the lan
 
 ## How to build
 1. Download the [source data](https://data-static.usercontent.dev/dc0202-input.tar.gz) and put it into "Dataset" folder
-2. Run "dataset.ipynb" notebook
+2. Run [dataset](https://github.com/CrostaBot/Telegram-Contest/blob/main/Dataset/Dataset.ipynb) notebook
 3. Download the [fasttext pretrained model](https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin) and put it into "Language Recognition" folder
 4. Run "Language Recognition Dataset.ipynb"
 5. Download the [labeled eng dataset](https://docs.google.com/spreadsheets/d/1D8uMJSC6qkpPTNwG4hZ5asd5tQcI5kgKoO_uzcQBhes/edit?usp=sharing) and [further labels](https://docs.google.com/spreadsheets/d/1tLKQ4U5CFZ_MZxvWHnafnlcWqeHpJy-LUnuNbnr6ffU/edit?usp=sharing) from russian dataset and the [russian dataset](https://docs.google.com/spreadsheets/d/1RGWC-y1ViM6MBP30pYW15Yvqxg2JHdbs8pxJHwq2Mz0/edit?usp=sharing). Then put them into "Topic Modelling" folder
