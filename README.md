@@ -8,6 +8,48 @@ The task in this contest is to create a C/C++ library that can determine the lan
 
 **Determine channel topic.** For channels in English and Russian, the algorithm must determine the relative weight for each of the topics identified in the channel. The topics are 41.
 
++ Art & Design
++ Bets & Gambling
++ Books
++ Business & Entrepreneurship
++ Cars & Other Vehicles
++ Celebrities & Lifestyle
++ Cryptocurrencies
++ Culture & Events
++ Curious Facts
++ Directories of Channels & Bots
++ Economy & Finance
++ Education
++ Erotic Content
++ Fashion & Beauty
++ Fitness
++ Food & Cooking
++ Foreign Languages
++ Health & Medicine
++ History
++ Home & Architecture
++ Humor & Memes
++ Investments
++ Job Listings
++ Kids & Parenting
++ Marketing & PR
++ Motivation & Self-Development
++ Movies
++ Music
++ Offers & Promotions
++ Pets
++ Politics & Incidents
++ Psychology & Relationships
++ Real Estate
++ Recreation & Entertainment
++ Religion & Spirituality
++ Science
++ Sports
++ Technology & Internet
++ Travel & Tourism
++ Video Games
++ Other
+
 ## Workflow
 
 1. **Input filtering.** The dataset is given as a json containing three keys: Title, Description and Rececent Posts. Each key contains string values. In this first step I read the input and I clear the string from emojis, multiple space, link etc.
