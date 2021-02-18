@@ -6,7 +6,7 @@ The task in this contest is to create a C/C++ library that can determine the lan
 
 **Determine channel language.** The algorithm must use the channel's name, description and the text of several posts to determine its language and return the language's 2-letter ISO code (or “other” if the language doesn’t have a two-letter code).
 
-**Determine channel topic.** For channels in English and Russian, the algorithm must determine the relative weight for each of the topics identified in the channel. The topics are 41.
+**Determine channel topic.** For channels in English and Russian, the algorithm must determine the relative weight for each of the topics identified in the channel. The topics are 41:
 
 + Art & Design
 + Bets & Gambling
